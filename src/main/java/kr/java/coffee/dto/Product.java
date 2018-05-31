@@ -4,6 +4,9 @@ public class Product {
 	private String code;
 	private String name;
 	private int price;
+	
+	
+	
 	public Product() {
 		// TODO Auto-generated constructor stub
 	}
@@ -30,7 +33,7 @@ public class Product {
 	}
 	@Override
 	public String toString() {
-		return String.format("Product [%s, %s, %s]", code, name, price);
+		return String.format("Product [code=%s, name=%s, price=%s]", code, name, price);
 	}
 	@Override
 	public int hashCode() {
